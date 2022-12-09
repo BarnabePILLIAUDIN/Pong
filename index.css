@@ -1,0 +1,52 @@
+body {
+  background: #000;
+  overflow: hidden;
+}
+body .app {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  border: 2px whitesmoke solid;
+  overflow: hidden;
+}
+body #raquette1 {
+  background: whitesmoke;
+  width: 10px;
+  height: 10%;
+  position: absolute;
+  left: 1%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 50;
+}
+body #ball {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body #raquette2 {
+  background: whitesmoke;
+  width: 10px;
+  height: 10%;
+  position: absolute;
+  right: 1%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 50;
+}
+body #line {
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  background: whitesmoke;
+}/*# sourceMappingURL=index.css.map */

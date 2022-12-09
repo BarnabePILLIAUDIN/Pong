@@ -1,0 +1,56 @@
+$color1: whitesmoke;
+$color2: gold;
+
+$font1: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+body {
+  background: #000;
+  overflow: hidden;
+  .app {
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    border: 2px $color1 solid;
+    overflow: hidden;
+  }
+  #raquette1 {
+    background: $color1;
+    width: 10px;
+    height: 10%;
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 50;
+  }
+  #ball {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: $color1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #raquette2 {
+    background: $color1;
+    width: 10px;
+    height: 10%;
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 50;
+  }
+  #line {
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background: $color1;
+  }
+}
